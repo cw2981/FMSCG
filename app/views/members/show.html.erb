@@ -1,7 +1,8 @@
+<div class="members-box">
 <% @members.each do |member| %>
-  <div class="members-box col-10 offset-1">
+  <div class="members-box col-8 offset-2">
   <h1><%= member.name %></h1><br />
   <i><%= member.rank %></i><br />
-  <h3><%= member.year %></h3>
+  <h4><%= member.year %></h4>
 </div>
 <% end %>

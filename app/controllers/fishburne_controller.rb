@@ -1,0 +1,2 @@
+class FishburneController < ApplicationController
+end

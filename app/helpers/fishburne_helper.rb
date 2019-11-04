@@ -1,0 +1,2 @@
+module FishburneHelper
+end
