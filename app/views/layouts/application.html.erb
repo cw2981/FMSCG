@@ -52,23 +52,13 @@
   <p class="alert alert-danger"><%= alert %></p>
   <% end %>
 
-   <style>
-    html, body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-    }
-    #map {
-      height: 100%;
-    }
-  </style>
+   
   </head>
   <body>
-  <div id="map"></div>
   <script>
 
     function initMap() {
-      var myLatLng = {lat: -25.363, lng: 131.044};
+      var myLatLng = {lat: 38.068, lng: -78.891};
 
       var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 4,

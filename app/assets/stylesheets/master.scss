@@ -64,3 +64,19 @@ h4 {
 i {
   color: white;
 }
+  
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .map-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #map {
+    height: 25%;
+    width: 25%;
+    overflow: visible !important;
+  }
